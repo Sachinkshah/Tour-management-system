@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Management</title>
+
+    <!-- font awesome cdn file link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+<a href="#" class="logo">Tour Management <span>.</span></a>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="destinaton.html">Destination</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="profile.html" class="active">Profile</a></li>
+        <li><a href="#">review</a></li>
+        <li><a href="contact.html">contact</a></li>
+    </ul>
+</nav>
+
+<div class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+<!---------------- my account------------>
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/review-bg.jpg" class="accountimg">
+            </div>
+            <div class="col-2">
+                <div class="form-container2">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="register()">Sign up</span>
+                        <hr id="Indicator">
+                    </div>
+                    <form id="LoginForm">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forgot Password</a>
+                    </form>
+                    <form id="RegForm">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var LoginForm = document.getElementById("LoginForm");
+    var RegForm = document.getElementById("RegForm");
+    var Indicator = document.getElementById("Indicator");
+
+    function register(){
+        RegForm.style.transform = "translateX(0px)";
+        LoginForm.style.transform = "translateX(0px)";
+        Indicator.style.transform = "translateX(100px)";
+    }
+    function login(){
+        RegForm.style.transform = "translateX(300px)";
+        LoginForm.style.transform = "translateX(300px)";
+        Indicator.style.transform = "translateX(0px)";
+    }
+
+
+</script>
+
+<section class="newsletter">
+
+    <h1>sign up 25% discount</h1>
+    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam provident saepe vel pariatur incidunt libero quo nisi ratione. Ea, corporis.</p>
+    
+    <form action="">
+        <input type="email" placeholder="enter your email">
+        <input type="submit" value="sign up">
+    </form>
+    
+    </section>
+    
+    <section class="footer">
+    
+    <h1 class="credit">created by <span>Group-5</span> | all rights reserved.</h1>
+    
+    <div class="icons">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-github"></a>
+    </div>
+    
+    </section>
+    <!-- jquery cdn link  -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- custom js file link  -->
+    <script src="js/main.js"></script>
+    
+    
+        
+    </body>
+    </html>
