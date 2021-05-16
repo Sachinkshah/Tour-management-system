@@ -674,3 +674,132 @@ header .fa-bars{
   text-align: center;
 
 }
+.single{
+  width: 100%;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+}
+
+.about{
+  min-height: 100vh;
+}
+
+.about .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:90%;
+  margin:0 auto;
+}
+
+.about .row .image img{
+  height:65vh;
+  width: 50vw;
+  padding-right: 20px;
+}
+
+.about .row .content h3{
+  font-size: 4rem;
+  color:#0098a1;
+}
+
+.about .row .content p{
+  font-size: 1.9rem;
+  color:#333;
+}
+
+.about .row .content .btn{
+  outline: none;
+  border:none;
+  cursor: pointer;
+  transition: .2s linear;
+  height:4rem;
+  width:18rem;
+  margin-top: 1rem;
+  color:#fff;
+  background: #0098a1;
+  font-size: 2rem;
+}
+
+.about .row .content .btn1,
+.about .row .content .btn:hover{
+  background: none;
+  color:#0098a1;
+  border:.2rem solid #0098a1;
+  margin-right: 1rem;
+}
+.contact .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact .row .contact-info .box{
+  margin:4rem 2rem;
+}
+
+.contact .row .contact-info .box h3{
+  font-size: 2rem;
+  color:#333;
+}
+
+.contact .row .contact-info .box h3 i{
+  color:#0098a1;
+}
+
+.contact .row .contact-info .box p{
+  padding-left: 3rem;
+  font-size: 1.7rem;
+  color:#aaa;
+}
+
+.contact .row .contact-form-container{
+  width:50%;
+}
+
+.contact .row .contact-form-container h3{
+  font-size: 4rem;
+  padding-top: 4rem;
+  color:#0098a1;
+} 
+
+.contact .row .contact-form-container .inputBox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact .row .contact-form-container .inputBox input{
+  width: 49%;
+}
+
+.contact .row .contact-form-container form input, textarea{
+  outline: none;
+  border:.2rem solid #0098a1;
+  height:4rem;
+  background:#fff;
+  padding:0 1rem;
+  margin:1rem 0;
+  font-size: 1.8rem;
+}
+
+.contact .row .contact-form-container form textarea{
+  width:100%;
+  padding:1rem;
+  resize: none;
+  height:20%;
+}
+
+.contact .row .contact-form-container form input[type="submit"]{
+  color:#0098a1;
+  border:.2rem solid #0098a1;
+  cursor: pointer;
+  transition: .2s;
+  width:20rem;
+}
+
+.contact .row .contact-form-container form input[type="submit"]:hover{
+  color:#fff;
+  background:#0098a1;
+}
