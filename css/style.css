@@ -803,3 +803,126 @@ header .fa-bars{
   color:#fff;
   background:#0098a1;
 }
+
+.form1{
+  margin: 20px 0 0 20px;
+}
+.in{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  
+}
+
+.form1 label{
+  color: #0098a1;
+  font-size: 20px;
+}
+#t{
+  height: 200px;
+}
+.se1 h4{
+  margin:10px 0 0 20px;
+  font-size: 20px;
+}
+.se1 h4::selection{
+  background-color: rgb(72, 201, 173);
+  color: lawngreen;
+}
+.se1 h4:hover{
+  color: rgb(188, 207, 18);
+}
+.sb{
+  padding:10px 15px;
+  background-color: #4CAF50;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 4px;
+}
+.sb:hover{
+  background-color: #fff;
+}
+.o{
+  padding-left: 200px;
+  color: #0098a1;
+
+}
+.o1{
+color: #0098a1;
+    padding-left:30px; 
+}
+.df{
+  color: #3B53CC;
+  font-size: 30px;
+  margin: 10px 15px;
+}
+.btn-sec{
+  transition: .9s;
+}
+.btn-sec:hover{
+  transform: scale(.8);
+}
+
+
+.picture{
+  background-image: url("images/ujjwal.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.top-sec h1{
+  font-family: 'Charm', cursive;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.pts p{
+  font-family: 'Charm', cursive;
+  margin-top: 20px;
+  line-height: 25px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2;
+}
+h1{
+  font-family: 'Charm', cursive;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
+}
+.pts-d{
+  display: flex;
+  justify-content: space-around;
+
+}
+.pd{
+  margin-top: 20px;
+  border: 1px solid #B1B6D6;
+  height: 80px;
+  width: 190px;
+  padding:15px 25px;
+  border-radius: 7px;
+}
+.pd i{
+  color: red;
+  font-size: 28px;
+}
+.pd h5{
+  padding-left: 40px;
+  font-family: 'Original Surfer', cursive;
+}
+
+.btn-sec{
+  transition: .9s;
+}
+.btn-sec:hover{
+  transform: scale(.8);
+}
